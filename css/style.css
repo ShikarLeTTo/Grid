@@ -1,0 +1,88 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 72px;
+}
+h1 + p {
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+p {
+    font-size: 36px;
+}
+a {
+    font-size: 18px;
+    text-decoration: none;
+}
+.grid {
+    display: grid;
+    grid-template-areas: "a a a a" "a a a a" "b b c c" "d e f g" "h h i j" "m m n n";
+}
+.grid-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-item-main {
+    background-image: url(../img/bg-main.png);
+    grid-area: a;
+}
+.grid-item-red {
+    background-image: url(../img/bg-red.png);
+    grid-area: b;
+}
+.grid-item-lgray {
+    background-color: #f3f1ef;
+    grid-area: c;
+}
+.grid-item-pic1 {
+    display: block;
+    height: 515px;
+    background-image: url(../img/bg-one.png);
+    grid-area: d;
+}
+.grid-item-pic2 {
+    display: block;
+    height: 515px;
+    background-image: url(../img/bg-two.png);
+    grid-area: e;
+}
+.grid-item-pic3 {
+    display: block;
+    height: 515px;
+    background-image: url(../img/bg-three.png);
+    grid-area: f;
+}
+.grid-item-pic4 {
+    display: block;
+    height: 515px;
+    background-image: url(../img/bg-four.png);
+    grid-area: g;
+}
+.grid-item-blue-text {
+    grid-area: h;
+}
+.grid-item-pic5 {
+    background-image: url(../img/bg-five.png);
+    grid-area: i;
+}
+.grid-item-bluebg {
+    grid-area: j;
+}
+.grid-item-blue {
+    background-color: #3f729b;
+    color: #fff;
+}
+.grid-item-green {
+    background-color: #2ebd59;
+    color: #fff;
+    grid-area: m;
+}
+.grid-item-gray {
+    background-color: #282b2f;
+    color: #fff;
+    grid-area: n;
+}
